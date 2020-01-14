@@ -11,7 +11,7 @@
     <title>{{ config('app.name', 'Blog') }}</title>
 
     <!-- Styles -->
-    <link href="{{ secure_asset('public/css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
     <!-- <link href="{{ asset('public/css/app.css') }}" rel="stylesheet"> -->
     <!-- <script src="{{ asset('js/jquery.min.js') }}"></script> -->
 
@@ -37,7 +37,7 @@
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
-                      <li @if(Request::segment(1) == 'home') class="active" @endif><a href="{{route('home')}}">Home</a></li>
+                      <li @if(Request::segment(1) == 'home') class="active" @endif><a href="{{route('home')}}">Home2</a></li>
                       <li @if(Request::segment(1) == 'contact') class="active" @endif><a href="contact">Contact</a></li>
                       <li @if(Request::segment(1) == 'about') class="active" @endif><a href="about">About</a></li>
                     </ul>
@@ -83,7 +83,7 @@
     </div>
 
     <!-- Scripts -->
-    <script src="{{ secure_asset('public/js/app.js') }}"></script>
+    <script src="{{ asset('public/js/app.js') }}"></script>
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
     @yield('scripts')
 </body>
