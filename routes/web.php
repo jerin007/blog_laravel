@@ -17,7 +17,8 @@ Route::get('/contact','PagesController@getContact');
 Route::get('/details','PagesController@getPostDetails');
 
 Route::get('/posts/index', 'PostController@index')->name('index');
-Route::get('/posts/create', 'PostController@create');
+// Route::get('/posts/index', 'PostController@index');
+Route::get('/posts/create', 'PostController@create')->name('create');
 //Route::get('/posts/{post}', 'PostController@show')->name('posts.show');
 Route::post('/PostComment','CommentsController@store');
 Route::post('/PostReply','CommentsController@storeReply');

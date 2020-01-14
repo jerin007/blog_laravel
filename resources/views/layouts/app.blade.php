@@ -54,7 +54,7 @@
                                 </a>
 
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="{{'index'}}">All Posts</a></li>
+                                    <li><a href="{{ route('index')}} ">All Posts</a></li>
                                     <li>
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
