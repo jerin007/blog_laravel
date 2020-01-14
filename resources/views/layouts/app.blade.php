@@ -11,7 +11,7 @@
     <title>{{ config('app.name', 'Blog') }}</title>
 
     <!-- Styles -->
-    <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('public/css/app.css') }}" rel="stylesheet">
     <!-- <link href="{{ asset('public/css/app.css') }}" rel="stylesheet"> -->
     <!-- <script src="{{ asset('js/jquery.min.js') }}"></script> -->
 
@@ -83,7 +83,7 @@
     </div>
 
     <!-- Scripts -->
-    <script src="{{ asset('public/js/app.js') }}"></script>
+    <script src="{{ secure_asset('public/js/app.js') }}"></script>
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
     @yield('scripts')
 </body>
