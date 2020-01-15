@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="shortcut icon" href="{{ asset('public/img/favicon.ico') }}">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
     <title>{{ config('app.name', 'Blog') }}</title>
 
     <!-- Styles -->
@@ -37,7 +36,7 @@
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
-                      <li @if(Request::segment(1) == 'home') class="active" @endif><a href="{{route('home')}}">Home2</a></li>
+                      <li @if(Request::segment(1) == 'home') class="active" @endif><a href="{{route('home')}}">Home</a></li>
                       <li @if(Request::segment(1) == 'contact') class="active" @endif><a href="contact">Contact</a></li>
                       <li @if(Request::segment(1) == 'about') class="active" @endif><a href="about">About</a></li>
                     </ul>
@@ -79,7 +78,7 @@
            @yield('content')
         </div>
         <hr>
-        <p class="text-center">Copyright Jerin - All Rights Reserved </p>
+        <p class="text-center">All Copyright Jerin - All Rights Reserved </p>
     </div>
 
     <!-- Scripts -->
