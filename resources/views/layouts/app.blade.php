@@ -10,7 +10,8 @@
     <title>{{ config('app.name', 'Blog') }}</title>
 
     <!-- Styles -->
-    <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
+    <!-- <link href="{{ asset('public/css/app.css') }}" rel="stylesheet"> -->
+    <link href="public/css/app.css" rel="stylesheet">
     <!-- <link href="{{ asset('public/css/app.css') }}" rel="stylesheet"> -->
     <!-- <script src="{{ asset('js/jquery.min.js') }}"></script> -->
 
