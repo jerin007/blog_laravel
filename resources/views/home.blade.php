@@ -44,7 +44,7 @@
   <div class="col-md-3 col-md-offset-1">
     <div class="col-md-12" style="background-color:#eee;border-radius: 6px;padding-left: 20px;padding-right: 20px;">
       <h2>About me</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Hi, my name is Jerin Jahan and I'm a senior software engineer. Welcome to my blog!. I have more than 5 years of experience in front-end and back-end web-development.Ambitious and communicative. Good mentor and tech lead. Develop strategies, provide training, set goals, and obtain team feedback. Excellent interpersonal and communication skills. Big picture focus, communicating goals and vision to succeed. Problem solver, networker, and consensus builder.</p>
     </div>
   </div>
 </div>
